@@ -1,0 +1,108 @@
+/*************************************** Start **************************************/
+.active{
+    color: blue;
+   border-bottom: 2px solid greenyellow;
+}
+a{
+    text-decoration: none;
+}
+.footer a{
+    font-size: 18px;
+}
+.footer span{
+    font-size: 15px;
+}
+.header{
+    padding: 3%;
+    padding-bottom: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.nav-item .nav-link {
+    color: white !important;
+    font-size: 23px !important;
+}
+.container-fluid{
+    margin-left: 11%;
+}
+.Busniess_Strategy{
+    margin-bottom: 2%;
+}
+.itsall{
+    margin-bottom: 8%;
+}
+.navbar{
+ background-color: transparent !important;
+}
+.space_{
+    margin-top: 15%;
+}
+
+.body_of_site{
+    margin-top: 2%;;
+    padding-top: 5%;
+    background-color: white;
+}
+
+.second_body{
+    padding-top: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/****************** Body Of Site ***************/
+
+.our_icon{
+    /* margin-left: 28%; */
+    margin-bottom: 7%;
+    text-align: center;
+}
+.our_icon i{
+  font-size: 100px;
+}
+
+
+/********************** Second Body ************************/
+
+.looking{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+/************************* FOOTER ********************/
+.footer_1{
+    padding-top: 9%;
+    background-color: #80808045;
+}
+
+.footer_1 h3{
+    letter-spacing: 4px;
+    font-size: 22px;
+    color: #0d6efd;
+}
+input[type="checkbox"]{
+    border: 2px solid #0d6efd; 
+    width: 4%;
+    font-size: 16px;
+    height: 22px;  
+}
+
+input[type="email"]
+{border: 2px solid #0d6efd;
+ background-color:transparent;
+ width: 60%;
+ padding: 1%;
+}
+
+
+.first_row{
+    padding-bottom: 12%;
+    border-bottom: 2px solid #0d6efd;
+}
+
+.edit_button{
+    vertical-align: top;
+    border-radius: 0;
+}
