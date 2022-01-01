@@ -55,25 +55,7 @@
     exit;
    }
 
-   /*function signup(){ 
-        $firstname=$_POST["firstname"];
-        $lastname=$_POST["lastname"];
-        $phone=$_POST["phone"];
-        $email=$_POST["email"];
-        $imid=$_POST["imid"];
-        $imservice=$_POST["imservice"];
-        $username=$_POST["username"];
-        $password=$_POST["password"];
-        $challengequestion=addslashes($_POST["challengequestion"]);
-        $answer=$_POST["answer"];
-        $paymentname=$_POST["paymentname"];
-        $paymentmethod=$_POST["paymentmethod"];
-        $paymentinfos=$_POST["paymentinfos"];
-        $statut="Under Review";
-        $dateadd=date('Y-m-d h:i:s');
-        $dateset=date('Y-m-d h:i:s');
-        bd::query("INSERT INTO mailer VALUES (NULL, '$firstname', '$lastname', '$phone', '$email', '$imid', '$imservice', '$username', '$password', '$challengequestion', '$answer', '$paymentname', '$paymentmethod', '$paymentinfos', '$statut','$dateadd', '$dateset');");
-   }*/
+  
    
    
    function signin(){
@@ -90,9 +72,7 @@
                     $_SESSION["id-manager"] = $row['id'];
                     $_SESSION["username-manager"] = $row['username'];
                     
-                    //$_SESSION['start'] = time();
-                    //$_SESSION['expire'] = $_SESSION['start'] + (30*60);
-                    //add_log("<span class='badge badge-success'>Logged in sucessfully</span>");
+              
                     header("Location: /app/manager/");
                 }else{
                     return 'Your Acount is ' . $row['status'];
@@ -106,16 +86,3 @@
       }
    }
    
-   function forgot(){ 
-        
-   }
-   
-   /*function add_log($str){
-        $mailer=$_SESSION['id-mailer'];
-        $ip=$_SERVER["REMOTE_ADDR"];
-        $activity=addslashes($str);
-        $dateactivity=date('Y-m-d h:i:s');
-        bd::query("INSERT INTO mailer_log VALUES (NULL, '$mailer', '$ip', '$activity', '$dateactivity');");
-   }*/
-   
-  
